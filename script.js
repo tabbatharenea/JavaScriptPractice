@@ -23,6 +23,9 @@ function buildString() {
             if(userPlay === "yes") {
             userWord = prompt("Enter any word") + " ";
             userString = userString += userWord;
+            else if {
+                alert("You have quit the exercise. Come back soon!");
+            }
         }
     }
     while (userPlay === "yes");
