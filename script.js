@@ -23,9 +23,6 @@ function buildString() {
             if(userPlay === "yes") {
             userWord = prompt("Enter any word") + " ";
             userString = userString += userWord;
-            else if {
-                alert("You have quit the exercise. Come back soon!");
-            }
         }
     }
     while (userPlay === "yes");
@@ -36,13 +33,14 @@ function buildString() {
   //exercise 3
   function  printName() {
 var name = "My name is " + prompt("What is your name?");
-var toPrint = prompt("Would you like to print your name?");
+var toPrint = prompt("Would you like to print your name? Please type 'yes' or 'no'.");
 
 while (toPrint === "yes") {
     alert(name);
     name = name += "!";
-    toPrint = prompt("Would you like to print your name again?");
+    toPrint = prompt("Would you like to print your name again? Please type 'yes' or 'no'.");
     }
+    alert("Thanks for playing!");
   }
   document.getElementById("exercise3_btn").addEventListener("click", printName);
 
@@ -51,6 +49,7 @@ while (toPrint === "yes") {
 function  toEat() {
 var shouldEat = "You should be eating ";
 var suggest = "I suggest you try ";
+
 var breakfastFood = "Oatmeal & Strawberries.";
 var lunchFood = "A sandwich and Soup.";
 var dinnerFood = "Pizza and a salad.";
