@@ -19,7 +19,7 @@ function buildString() {
     var userWord = "";
 
     do {
-        userPlay = prompt("Would you like to play?");
+        userPlay = prompt("Would you like to play? Type 'yes' or 'no'.");
             if(userPlay === "yes") {
             userWord = prompt("Enter any word") + " ";
             userString = userString += userWord;
